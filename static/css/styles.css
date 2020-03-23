@@ -900,32 +900,21 @@ blockquote span {
 	.home .copy {
 		display: none;
 	}
-	.logo {
-		display: none;
-	}
-	.navigation ul li {
-    	width: 45px;
-	}
-	.navigation ul li a i {
-    	font-size: 20px;
-	}
-	.navigation ul li:hover a i {
-		font-size: 18px;
+	.navigation ul li a {
+		font-size: 17px;
+		font-weight: 700;
 	}
 
-	.resume .chart p,
-	.resume .service h5,
+
 	.about .desc-icon h6,
 	.about .desc-inter h6,
-	.resume .skill-item h5,
 	.portfolio .item-card h5,
 	.blog .blog-item .desc h3,
 	.about .counter-item .desc p,
 	.resume .experience .main h5 {
     	font-size: 15px;
 	}
-	.resume .price i,
-	.resume .service .icon,
+
 	.contact .contact-info .info i {
 		font-size: 25px;
 	}
@@ -948,46 +937,31 @@ blockquote span {
 		display: none;
 	}
 	.home p {
-		font-size: 17px;
+		font-size: 18px;
 	}
 	.home .social {
     	width: 100%;
 	}
-	.music-bg {
-		bottom: 80px;
-	}
 	.navigation {
-    	width: 80px;
-    	height: 100%;
-    	-webkit-transform: translateX(-200px);
-    			transform: translateX(-200px);
+		position: absolute;
+		top: 77%;
+		display: flex;
+
+    	-webkit-transform: translateY(-200px);
+    			transform: translateY(-200px);
     }
 	.navigation:hover,
 	.navigation.hovered {
-    	-webkit-transform: translateX(0px);
-    			transform: translateX(0px);
+    	-webkit-transform: translateY(0px);
+    			transform: translateY(0px);
 	}
-	.navigation ul li {
-        display: flex;
-        height: 60px;
-        width: 80px;
+	.navigation ul {
+		background: none;
+		display: flex;
+		flex-direction: row;
         align-items: center;
-        justify-content: center;
-    }
-	.navigation ul li {
-    	margin-left: 0;
 	}
-	.navigation ul:after {
-    	content: '';
-    	position: absolute;
-    	width: 35px;
-    	height: 34px;
-    	left: 50%;
-    	bottom: 20px;
-    	background-image: url(/img/evlogo.svg);
-		-webkit-transform: translateX(-50%);
-    			transform: translateX(-50%);
-	}
+	
 
 
 
