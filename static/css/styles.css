@@ -943,9 +943,16 @@ blockquote span {
     	width: 100%;
 	}
 	.navigation {
+		background: var(--bg-color);
+		line-height:40px;
+		margin: 10px;
+		width: 120px;
+		height: 170px;
 		position: absolute;
-		top: 77%;
+		top: 8%;
+		left: 52%;
 		display: flex;
+		border-radius: 10px;
 
     	-webkit-transform: translateY(-200px);
     			transform: translateY(-200px);
@@ -956,10 +963,10 @@ blockquote span {
     			transform: translateY(0px);
 	}
 	.navigation ul {
-		background: none;
 		display: flex;
-		flex-direction: row;
-        align-items: center;
+		margin-right: 10px;
+		flex-direction: column;
+        align-items: flex-end;
 	}
 	
 
