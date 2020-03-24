@@ -2,9 +2,9 @@
 <style>
 .theme-switch {
   display: inline-block;
-  height: 34px;
+  height: 35px;
   position: relative;
-  width: 63px;
+  width: 35px;
 }
 
 .theme-switch input {
@@ -12,41 +12,42 @@
 }
 
 .slider {
-  background-color: #ccc;
   bottom: 0;
   cursor: pointer;
   left: 0;
   position: absolute;
   right: 0;
   top: 0;
-  transition: .4s;
 }
 
 .slider:before {
-  background-color: #fff;
-  bottom: 4px;
+  background-image: url(../img/sun.png);
+  background-size: cover;
   content: "";
-  height: 26px;
-  left: 4px;
+  height: 35px;
   position: absolute;
-  transition: .4s;
-  width: 26px;
+  width: 35px;
+  
+}
+
+.slider:hover {
+  transform: rotate(360deg);
+  transition: 2s;
+
 }
 
 input:checked + .slider {
-  background-color: #608061;
+  background-image: url(../img/moon.png);
+  background-size: cover;
+  height: 35px;
+  position: absolute;
+  width: 35px;
+  transition: 2s;
+
 }
 
 input:checked + .slider:before {
-  transform: translateX(26px);
-}
-
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
+  background: none;
 }
 </style>
 

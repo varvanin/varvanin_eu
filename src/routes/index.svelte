@@ -14,6 +14,7 @@
     '<a href="/"><i class="fab fa-whatsapp" /></a>',
     '<a href="/"><i class="fab fa-facebook-messenger" /></a>'
   ];
+  
 </script>
 
 <svelte:head>
