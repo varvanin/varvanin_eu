@@ -6,7 +6,7 @@
   let desc = "tworzenie i projektowanie stron internetowych.";
   let copy = "varvanin.eu © 2020 wszelkie prawa zastrzeżone.";
 
-  let bgImage = 'img/bgDay.jpg';
+  let bgImage = 'img/bodyBg.jpg';
 
   let socials = [
     '<a href="/"><i class="fab fa-facebook" /></a>',
