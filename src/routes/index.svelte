@@ -18,7 +18,14 @@
 </script>
 
 <svelte:head>
+
   <title>Tworzenie i projektowanie stron internetowych w Słubicach</title>
+
+  <meta name="keywords" content="www, projektowanie, strony internetowe, strony www, sklep internetowy, słubice"/>
+  <meta name="description" content="Tworzenie i projektowanie stron internetowych w Słubicach."/>
+  <meta name="language" content="PL">
+  <meta name="author" content="Yevhen Varvanin, varvanin84@gmail.com">
+
 </svelte:head>
 <!-- Home Section -->
 <section class="page home" style="background-image: url({bgImage})">
